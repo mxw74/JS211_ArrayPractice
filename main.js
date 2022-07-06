@@ -49,8 +49,8 @@ pets.unshift("turtles")
 console.log(pets)
 
 let numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]
-  numbers.forEach((num, index) => {
-  numbers[index] = num + 2;
+  numbers.forEach((num, index, array) => {
+  array[index] = num + 2;
 });
 
 console.log(numbers)
