@@ -50,6 +50,7 @@
    * Use the `sort` method to put the array `carsInReverse` into alphabetical order.
    * Based on the types of cars you used, predict which item in the array should be at index 0.
    * Use the following code to confirm or reject your prediction: `console.log(carsInReverse.indexOf('yourPrediction'));`
+
 1. `.slice()`
    * Create a `pets` array by copy/pasting the following: `const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird']`
    * Use the `slice` method to create a `reptiles` array with `snake` and `lizard` from the `pets` array.
@@ -58,7 +59,7 @@
 1. `.splice()`
    * Create a new array called `removedReptiles`, using the `splice` method to remove `snake` and `lizard` from the `pets` array.
    * Console.log `removedReptiles` and `pets` and run the program.
-   * Go back and add the string `'hamster'` in as a third parameter to your `splice` method, then run the program again and notice how the `pets` array has changed. Do you see how that works?
+   * Go back and add the string `'hamster'` in as a third parameter to your `splice` method, then run the program again and notice how the `pets` array has changed. Do you see ho that works?
 1. `.pop()`
    * Use the `pop` method to remove the last item from the `pets` array, saving it to a variable called `removedPet`.
    * Console.log `removedPet` and `pets` and run the program.
